@@ -11,14 +11,14 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 
 const hobbies = [
-  { title: "Painting", emoji: "🎨", left: "70%", top: "45%" },
-  { title: "Chess", emoji: "♟️", left: "50%", top: "5%" },
+  { title: "Painting", emoji: "🎨", left: "40%", top: "25%" },
+  { title: "Chess", emoji: "♟️", left: "50%", top: "0%" },
   { title: "Gaming", emoji: "🎮", left: "10%", top: "35%" },
-  { title: "Reading", emoji: "📚", left: "35%", top: "40%" },
+  { title: "Reading", emoji: "📚", left: "55%", top: "48%" },
   { title: "Coding", emoji: "🧑‍💻", left: "5%", top: "5%" },
-  { title: "Puzzle Games", emoji: "🧩", left: "5%", top: "65%" },
+  { title: "Puzzle Games", emoji: "🧩", left: "3%", top: "65%" },
   { title: "Cooking", emoji: "🍳", left: "65%", top: "69%" },
-  { title: "Music", emoji: "🎵", left: "35%", top: "70%" },
+  { title: "Music", emoji: "🎵", left: "65%", top: "25%" },
 ];
 export const AboutSection = () => {
   const constraintRef = useRef(null);

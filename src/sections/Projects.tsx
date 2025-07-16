@@ -1,8 +1,5 @@
-import {
-  default as docCollabImage,
-  default as myTubeImage,
-  default as netflixGPTImage,
-} from "@/assets/images/dark-saas-landing-page.png";
+import myTubeImage from "@/assets/images/mytube.png";
+import docImage from "@/assets/images/docCollab.png";
 
 import { Card } from "@/components/Card";
 import SectionHeader from "@/components/SectionHeader";
@@ -32,26 +29,12 @@ const portfolioProjects = [
     title: "DocCollab — Real-Time Editor",
     link: "https://doc-collabs.vercel.app",
     github: "https://github.com/manmoksh/doc-collab",
-    image: docCollabImage,
+    image: docImage,
     techStack: ["React", "Liveblocks", "Clerk", "Tailwind CSS", "Vercel"],
     results: [
       { title: "Collaborative document editing in real time" },
       { title: "Multi-user interactions via WebSockets" },
       { title: "Authentication and document syncing" },
-    ],
-  },
-  {
-    company: "Personal Project",
-    year: "2023",
-    title: "Netflix GPT — AI Movie Recommender",
-    link: "https://netflix-gpt-manmoksh-project.vercel.app",
-    github: "https://github.com/manmoksh/netflix-gpt",
-    image: netflixGPTImage,
-    techStack: ["React.js", "Firebase", "Gemini", "TMDB API", "Tailwind CSS"],
-    results: [
-      { title: "AI-powered movie recommendation app" },
-      { title: "Advanced search using Gemini" },
-      { title: "Firebase authentication and movie data" },
     ],
   },
 ];
@@ -93,8 +76,11 @@ export const ProjectsSection = () => {
                   </div>
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
-                    {project.results.map((result) => (
-                      <li className="flex  text-white/50 items-center text-sm md:text-base gap-2">
+                    {project.results.map((result, i) => (
+                      <li
+                        key={i}
+                        className="flex  text-white/50 items-center text-sm md:text-base gap-2"
+                      >
                         <span>
                           <FaRegCircleCheck className="size-5 md:size-6 text-green-500" />
                         </span>

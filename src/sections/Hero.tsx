@@ -118,8 +118,8 @@ export const HeroSection = () => {
             Crafting thoughtful digital experiences
           </h1>
           <p className="mt-4 text-center  text-white/60 md:text-lg">
-            I’m Manmoksh — a B.Tech student with a passion for building modern
-            web experiences and growing every day as a developer.
+            I&apos;m Manmoksh — a B.Tech student with a passion for building
+            modern web experiences and growing every day as a developer.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -137,7 +137,7 @@ export const HeroSection = () => {
             className="min-w-[180px] justify-center inline-flex items-center gap-2  border border-white/15 bg-white text-gray-900 rounded-xl h-12 px-6 hover:bg-white/15 hover:text-white  transition"
           >
             <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let&apos;s Connect</span>
           </a>
         </div>
       </div>
