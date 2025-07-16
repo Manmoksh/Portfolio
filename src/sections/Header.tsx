@@ -15,7 +15,7 @@ export const Header = () => {
           href="mailto:manmoksh04+portfolio@gmail.com"
           className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
         >
-          Contact Me
+          Contact
         </a>
       </nav>
     </div>
