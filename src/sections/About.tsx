@@ -1,7 +1,7 @@
 "use client";
 import bookCover from "@/assets/images/book-cover.png";
 import smileMemoji from "@/assets/images/memoji-graduate.png";
-import mapImage from "@/assets/images/newmap.png";
+import mapImage from "@/assets/images/Screenshot 2025-07-16 210529.png";
 import { Card } from "@/components/Card";
 import { CardHeader } from "@/components/CardHeader";
 import SectionHeader from "@/components/SectionHeader";
