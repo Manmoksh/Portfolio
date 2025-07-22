@@ -13,7 +13,7 @@ export const metadata = {
   title: "Manmoksh Portfolio",
   description: "Portfolio of Manmoksh — passionate B.Tech graduate and modern web developer.",
   keywords: "Manmoksh, Man moksh, Web Developer, Portfolio, Next.js, India",
-icons:{icons:{"/favicon.ico"}},
+icons:{icons:{"favicon.ico"}},
   openGraph: {
     title: "Manmoksh — Portfolio",
     description: "Explore my web development projects and skills.",
