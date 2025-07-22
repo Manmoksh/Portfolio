@@ -9,13 +9,20 @@ const calistoga = Calistoga({
   weight: ["400"],
 });
 
-export const metadata: Metadata = {
-  title: "Manmoksh's Portfolio",
-  description:
-    "A personal portfolio by Manmoksh — showcasing my projects, skills, and passion for building modern web applications.",
-
-  icons: {
-    icon: "favicon.ico",
+export const metadata = {
+  title: "Manmoksh Portfolio",
+  description: "Portfolio of Manmoksh — passionate B.Tech graduate and modern web developer.",
+  keywords: "Manmoksh, Man moksh, Web Developer, Portfolio, Next.js, India",
+  openGraph: {
+    title: "Manmoksh — Portfolio",
+    description: "Explore my web development projects and skills.",
+    url: "https://manmoksh.tech",
+    siteName: "Manmoksh Portfolio",
+    
+    type: "website",
+  },
+  other: {
+    "google-site-verification": "UB_Q99jIfHLqIuduuXdKUCmTNT-ibhNB8uv2hnFxWGI",
   },
 };
 
